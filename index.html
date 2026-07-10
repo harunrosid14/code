@@ -145,35 +145,7 @@
 
   <!-- decorative "coding" background, pure HTML/CSS, no image file, no JS -->
   <pre class="code-bg" aria-hidden="true">
-function connect(node) {
-  const socket = new WebSocket(url);
-  socket.onopen = () => console.log("ready");
-  return socket;
-}
 
-const app = createApp({
-  state: { users: [], online: true },
-  render() { return h("main", this.state); }
-});
-
-app.mount("#root");
-
-export default class Queue {
-  constructor() { this.items = []; }
-  push(x) { this.items.push(x); }
-  pop() { return this.items.shift(); }
-}
-
-for (let i = 0; i < 100; i++) {
-  if (i % 15 === 0) yield "FizzBuzz";
-}
-
-SELECT id, name FROM speakers
-WHERE conference = 2026
-ORDER BY session_time ASC;
-
-git commit -m "feat: add sponsor grid"
-git push origin main
 
 &lt;div class="card"&gt;
   &lt;h2&gt;{{ title }}&lt;/h2&gt;
@@ -264,16 +236,16 @@ git push origin main
 </html>
     </section>
     <footer>
-        <div>
+        <div class="fot-text-div">
             <img src="images/assets/footer-logo.png">
             <p>@copy right 2026</p>
             <p>Lisens:12133</p>
         </div>
-        <div class="footer-img" width="20px">
-            <img src="images/assets/icons8-facebook-48.png" alt="">
-            <img src="images/assets/icons8-instagram-logo-48.png" alt="">
-            <img src="images/assets/icons8-x-50.png" alt="">
-            <img src="images/assets/icons8-github-50.png" alt="">
+        <div class="fot-icon-div" width="20px">
+            <button class="fot-btn" ><a href="https://www.facebook.com/"></a><img src="images/assets/icons8-facebook-48.png" alt="" width="30px" ></button>
+            <button class="fot-btn"><a href="https://www.instagram.com/"></a><img src="images/assets/icons8-instagram-logo-48.png" alt="" width="30px"></button>
+            <button class="fot-btn"><a href="https://x.com/"></a><img src="images/assets/icons8-x-50.png" alt="" width="30px"></button>
+            <button class="fot-btn"><a href="https://github.com/" ></a>><img src="images/assets/icons8-github-50.png" width="30px" ></button>
         </div>
     </footer>
 

@@ -528,3 +528,31 @@ p.subtitle{
   .hero{ padding: 72px 16px 48px; }
   .sponsor-btn{ font-size: 13px; padding: 11px 16px 11px 14px; }
 }
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:10px;
+    background-color: #2563EB;
+
+}
+.fot-text-div{
+   display: flex;
+   gap:5px;
+   font-size:20px;
+
+}
+.fot-btn{
+    border:2px solid #2563EB;
+    border-radius:10px ;
+    cursor: pointer;
+    background-color: #2563EB;
+}
+.fot-icon-div{
+    display:flex;
+    gap:10px;
+    border:2px solid #2563EB;
+    border-radius:10px ;
+    
+
+}
