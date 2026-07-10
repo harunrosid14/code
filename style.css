@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+.marg{
+    max-width: 1200px;
+    margin:auto ;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding:5px 10px;
+    margin:10px ;
+    
+    
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex:1;
+    cursor:;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.reg-button{
+    background-color:#2563EB;
+    color:white;
+    height:40px;
+    width:110px;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+}
+.hero-1{
+    background-image:url(images/assets/banner.jpg);     
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height:750px;
+    gap:20;
+
+ }
+.hero-dev{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:250px;
+    
+}
+.hero-1 h1 {
+    color:white;
+    font-size:60px;
+    margin:10px; ;
+   
+
+}
+.hero-1 p{
+    color:white;
+    text-align:center;
+}
+.banner-btn{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:100px;
+   margin:150px; 
+   background-color:#2563EB;
+   color:white;
+   height:50px;
+   width:150px;
+   border: none;
+   border-radius: 10px;
+   font-style:bold;
+   cursor: grab;
+}
+.banner-btn{
+    padding:20px;
+    font-size:20px;
+
+}
