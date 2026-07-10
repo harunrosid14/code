@@ -130,5 +130,152 @@
             </card3>
         </div>
     </section>
+    <section>
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DevConf 2026 — International Developer Summit</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<section class="hero">
+
+  <!-- decorative "coding" background, pure HTML/CSS, no image file, no JS -->
+  <pre class="code-bg" aria-hidden="true">
+function connect(node) {
+  const socket = new WebSocket(url);
+  socket.onopen = () => console.log("ready");
+  return socket;
+}
+
+const app = createApp({
+  state: { users: [], online: true },
+  render() { return h("main", this.state); }
+});
+
+app.mount("#root");
+
+export default class Queue {
+  constructor() { this.items = []; }
+  push(x) { this.items.push(x); }
+  pop() { return this.items.shift(); }
+}
+
+for (let i = 0; i < 100; i++) {
+  if (i % 15 === 0) yield "FizzBuzz";
+}
+
+SELECT id, name FROM speakers
+WHERE conference = 2026
+ORDER BY session_time ASC;
+
+git commit -m "feat: add sponsor grid"
+git push origin main
+
+&lt;div class="card"&gt;
+  &lt;h2&gt;{{ title }}&lt;/h2&gt;
+&lt;/div&gt;
+  </pre>
+
+  <div class="scanline" aria-hidden="true"></div>
+
+  <div class="content">
+
+    <div class="eyebrow"><span class="dot"></span> Call for Speakers Now Open</div>
+
+    <h1 class="title">Dev<span class="accent">Conf</span> 2026</h1>
+
+    <p class="subtitle">
+      An international gathering for the people who build the internet —
+      three days of talks, workshops, and late-night debugging with engineers
+      from every timezone.
+    </p>
+
+    <div class="meta-row">
+      <span>📍 Dhaka · Hybrid</span>
+      <span class="sep">/</span>
+      <span>🗓️ Nov 12–14, 2026</span>
+      <span class="sep">/</span>
+      <span>💻 40+ Sessions</span>
+    </div>
+
+    <div class="cta-row">
+      <button class="btn btn-primary">Get Your Pass</button>
+      <button class="btn btn-ghost">View Schedule</button>
+    </div>
+
+    <div class="sponsors">
+      <div class="sponsors-label">Backed by teams building the future</div>
+
+      <!--
+        Note: these are text/monogram badges, not the real company logos.
+        I can't reproduce official brand logo artwork here — for production,
+        replace the <span class="mark"> below with an <img> pointing to each
+        company's official SVG logo from their brand-kit page.
+      -->
+      <div class="sponsor-grid">
+
+        <a href="#" class="sponsor-btn" style="--tint:#a7d1c8">
+          <span class="prompt">&gt;</span>
+          <span class="mark">◎</span>
+          <span>OpenAI</span>
+        </a>
+
+        <a href="#" class="sponsor-btn" style="--tint:#d97757">
+          <span class="prompt">&gt;</span>
+          <span class="mark">❋</span>
+          <span>Anthropic</span>
+        </a>
+
+        <a href="#" class="sponsor-btn" style="--tint:#2563eb">
+          <span class="prompt">&gt;</span>
+          <span class="mark">◆</span>
+          <span>Google</span>
+        </a>
+
+        <a href="#" class="sponsor-btn" style="--tint:#3f8f00">
+          <span class="prompt">&gt;</span>
+          <span class="mark">▦</span>
+          <span>Microsoft</span>
+        </a>
+
+        <a href="#" class="sponsor-btn" style="--tint:#555555">
+          <span class="prompt">&gt;</span>
+          <span class="mark">◐</span>
+          <span>Apple</span>
+        </a>
+
+        <a href="#" class="sponsor-btn" style="--tint:#0f9d68">
+          <span class="prompt">&gt;</span>
+          <span class="mark">▲</span>
+          <span>Programming Hero</span>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
+    </section>
+    <footer>
+        <div>
+            <img src="images/assets/footer-logo.png">
+            <p>@copy right 2026</p>
+            <p>Lisens:12133</p>
+        </div>
+        <div class="footer-img" width="20px">
+            <img src="images/assets/icons8-facebook-48.png" alt="">
+            <img src="images/assets/icons8-instagram-logo-48.png" alt="">
+            <img src="images/assets/icons8-x-50.png" alt="">
+            <img src="images/assets/icons8-github-50.png" alt="">
+        </div>
+    </footer>
+
 </body>
 </html>
