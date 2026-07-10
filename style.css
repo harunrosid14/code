@@ -2,8 +2,8 @@
     margin: 0;
 }
 .marg{
-    max-width: 1200px;
-    margin:auto ;
+    max-width:1200px;
+    margin:auto auto;
 }
 nav{
     display:flex;
@@ -37,6 +37,7 @@ nav ul li a{
     border-radius:10px;
     cursor: pointer;
 }
+/* ---Section---1--- */
 .hero-1{
     background-image:url(images/assets/banner.jpg);     
     background-size:cover;
@@ -86,4 +87,28 @@ nav ul li a{
     padding:20px;
     font-size:20px;
 
+}
+/* --section--2 */
+.hero-2{
+    
+}
+.box-img{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: center;
+    align-items:center;
+
+}
+.style{
+    justify-content: space-around;
+    margin:10px;
+    border-radius:10px;
+    border:2px solid gray;
+    padding:px;
+    
+    align-items: center;
+
+}
+.text-style{
+    padding:20px;
 }
