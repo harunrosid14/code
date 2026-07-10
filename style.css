@@ -89,7 +89,11 @@ nav ul li a{
 
 }
 /* --section--2 */
-.hero-2{
+.hero-2-h1{
+    text-align:center;
+    margin:10px ;
+    font-size:50px ;
+
     
 }
 .box-img{
@@ -105,7 +109,7 @@ nav ul li a{
     border-radius:10px;
     border:2px solid gray;
     padding:px;
-    
+    cursor: grab;
     align-items: center;
 
 }
