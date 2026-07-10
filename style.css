@@ -1,8 +1,9 @@
 *{
     margin: 0;
+    font-family: Impact;
 }
 .marg{
-    max-width:1200px;
+    max-width:1300px;
     margin:auto auto;
 }
 nav{
@@ -89,6 +90,12 @@ nav ul li a{
 
 }
 /* --section--2 */
+
+
+
+
+
+
 .hero-2-h1{
     text-align:center;
     margin:10px ;
@@ -115,4 +122,149 @@ nav ul li a{
 }
 .text-style{
     padding:20px;
+}
+/* section-3 */
+
+.hero-3{
+    background-color: rgba(252, 253, 253, 0.286);
+    margin:auto auto auto auto;
+    border:2px solid rgb(252, 184, 184) ;
+    border-radius:20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-3 h1{
+    text-align: center;
+    font-size:48px;
+    margin:20px ;
+}
+.sec-p{
+    text-align:center;
+    font-size:20px;
+    margin:15px ;
+}
+
+
+.hero-3-main-div{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);  
+ 
+    
+/* card--1     */
+}
+.card1{
+    text-align:;
+    border:2px solid gray;
+    border-radius: 20px;
+    margin:10px;
+    padding:10px;
+    
+
+
+}
+.card-1-title{
+    text-align:left;
+    margin: 10px;
+
+}
+.card-1-title h2{
+    font-size:50px;
+
+}
+.card1 ul{
+    font-size:20px;
+    
+    
+}
+.card1-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-radius: 20px;
+    font-size:30px;
+    margin:10px ;
+    margin-left:100px; 
+    cursor: pointer;  
+
+
+}
+
+
+
+
+
+
+
+
+
+/* card--2 */
+
+
+.card2{
+    text-align:;
+    border:2px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px ;
+    background-color:#0D1B2A;
+    color: white;
+}
+.card-2-title{
+    text-align: left;
+    margin:10px ;
+}
+.card-2-title h2{
+    font-size:52px; 
+}
+.card2 ul{
+    font-size:20px;
+}
+.card2-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-radius: 20px;
+    font-size:30px;
+    margin:10px ;
+    margin-left:100px;  
+    background-color: #2563EB;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* card-3 */
+.card3{
+    text-align:;
+    border:2px solid gray;
+    border-radius: 20px;
+    margin:10px;
+    padding:10px;
+}
+.card-3-title{
+    text-align: left;
+    margin: 10px;
+
+}
+.card3 ul{
+   font-size:20px ;
+
+}
+.card-3-title h2{
+    font-size:50px ;
+}
+.card3-btn{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-radius: 20px;
+    font-size:30px;
+    margin:10px ;
+    margin-left:100px; 
+    cursor: pointer;
 }
